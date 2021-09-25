@@ -1,4 +1,4 @@
-module github.com/leaanthony/typescriptify-golang-structs
+module github.com/tkrajina/typescriptify-golang-structs
 
 go 1.16
 
