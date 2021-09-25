@@ -128,9 +128,9 @@ func New() *TypeScriptify {
 	result.CreateFromMethod = true
 	result.CreateConstructor = true
 
-	if result.CreateFromMethod {
-		fmt.Fprintln(os.Stderr, "FromMethod METHOD IS DEPRECATED AND WILL BE REMOVED!!!!!!")
-	}
+	// if result.CreateFromMethod {
+	// 	fmt.Fprintln(os.Stderr, "FromMethod METHOD IS DEPRECATED AND WILL BE REMOVED!!!!!!")
+	// }
 	return result
 }
 
